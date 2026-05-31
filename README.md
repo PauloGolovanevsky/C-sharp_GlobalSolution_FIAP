@@ -84,6 +84,16 @@ dotnet run
 
 ## Diagramas da Solução
 
+### Diagrama de Classes UML
+<p align="center">
+  <img width="100%" height="1287" alt="diagrama uml drawio" src="https://github.com/user-attachments/assets/e353cc1d-73b2-48ae-a70f-08a228e85c2c" />
+</p>
 
+---
+
+### Diagrama de Fluxo do Sistema
+<p align="center">
+  <img width="450" alt="Diagrama de fluxo do sistema" src="https://github.com/user-attachments/assets/34ead715-6d59-43a4-84c5-aa2a4385f6e2" />
+</p>
 
 ## Evidencias da Aplicação funcionando
