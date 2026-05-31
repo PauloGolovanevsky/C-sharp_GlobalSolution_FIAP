@@ -2,29 +2,18 @@
 
 ## Motivação
 
-O SpaceMonitor é uma aplicação console em C# criada para a Global Solution da FIAP. O projeto simula uma central de monitoramento espacial capaz de registrar objetos em órbita, listar informações operacionais, avaliar riscos simples de colisão e manter um histórico de eventos.
+O SpaceMonitor simula uma central de monitoramento espacial capaz de registrar objetos em órbita, listar informações operacionais, avaliar riscos simples de colisão e manter um histórico de eventos.
 
-## Problema do lixo espacial
+## Solução Proposta
 
-O lixo espacial é formado por restos de satélites, fragmentos de colisões, estágios de foguetes e outros detritos que permanecem em órbita terrestre. Esses objetos podem atingir velocidades muito altas e representar risco para satélites ativos, missões tripuladas, estações espaciais e infraestrutura crítica de comunicação, navegação e observação da Terra.
+O **SpaceMonitor** foi desenvolvido para simular uma central de monitoramento de objetos em órbita terrestre, contribuindo para a análise e prevenção de riscos relacionados ao lixo espacial.
 
-## Solução proposta
+A aplicação permite o cadastro e gerenciamento de diferentes tipos de objetos espaciais, como satélites ativos, detritos espaciais e estágios de foguetes desativados. Com base nos dados informados, o sistema realiza uma simulação de monitoramento orbital, comparando a altitude dos objetos cadastrados para identificar possíveis situações de risco.
 
-O sistema permite cadastrar satélites, detritos espaciais e estágios de foguetes com dados orbitais básicos. A central calcula uma simulação simples de risco de colisão: quando dois objetos possuem diferença de altitude inferior a 50 km, um alerta preventivo é emitido e registrado no histórico.
+Quando a diferença de altitude entre dois objetos é inferior a 50 km, o sistema considera a existência de um potencial risco de colisão e gera automaticamente um alerta preventivo. Todas as ocorrências são registradas em um histórico de eventos, permitindo o acompanhamento das operações realizadas e das situações identificadas durante o monitoramento.
 
-## Arquitetura utilizada
+Além disso, o sistema disponibiliza funcionalidades de consulta, geração de relatórios e visualização do histórico, proporcionando uma visão consolidada dos objetos monitorados e dos alertas emitidos pela central.
 
-O projeto foi organizado por camadas e responsabilidades:
-
-- `Models`: entidades do domínio espacial.
-- `Interfaces`: contratos de serviços.
-- `Services`: regras de monitoramento, alerta e relatório.
-- `Structs`: tipos de valor usados pelo domínio.
-- `Exceptions`: exceções customizadas.
-- `Reports`: classe parcial de relatório.
-- `Data`: armazenamento em memória do histórico de eventos.
-
-A aplicação utiliza injeção de dependência via construtor entre os serviços, reduzindo acoplamento direto e facilitando manutenção.
 
 ## Conceitos de POO aplicados
 
@@ -93,31 +82,8 @@ dotnet run
 - Gerar relatório consolidado.
 - Exibir histórico de eventos com data e hora.
 
-## Tecnologias utilizadas
+## Diagramas da Solução
 
-- C# 12
-- .NET 8
-- Console Application
-- Programação Orientada a Objetos
-- Mermaid para documentação visual
 
-## Fluxo da aplicação
 
-```mermaid
-flowchart TD
-
-A[Início]
-B[Menu Principal]
-C[Cadastrar Objeto]
-D[Listar Objetos]
-E[Simular Colisão]
-F[Gerar Relatório]
-G[Histórico]
-
-A --> B
-B --> C
-B --> D
-B --> E
-B --> F
-B --> G
-```
+## Evidencias da Aplicação funcionando

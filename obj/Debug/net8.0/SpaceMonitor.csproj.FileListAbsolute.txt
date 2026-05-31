@@ -1,0 +1,14 @@
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\bin\Debug\net8.0\SpaceMonitor.exe
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\bin\Debug\net8.0\SpaceMonitor.deps.json
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\bin\Debug\net8.0\SpaceMonitor.runtimeconfig.json
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\bin\Debug\net8.0\SpaceMonitor.dll
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\bin\Debug\net8.0\SpaceMonitor.pdb
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.AssemblyInfoInputs.cache
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.AssemblyInfo.cs
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.csproj.CoreCompileInputs.cache
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.dll
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\refint\SpaceMonitor.dll
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.pdb
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.genruntimeconfig.cache
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\ref\SpaceMonitor.dll
