@@ -12,3 +12,4 @@ C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\refint\SpaceMonitor.
 C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.pdb
 C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.genruntimeconfig.cache
 C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\ref\SpaceMonitor.dll
+C:\Users\CLIENTE\Desktop\FIAP\SpaceMonitor\obj\Debug\net8.0\SpaceMonitor.sourcelink.json

@@ -15,9 +15,6 @@ public sealed class MonitoramentoService : IMonitoramento
     private readonly AlertaService _alertaService;
     private readonly HistoricoEventos _historicoEventos;
 
-    /// <summary>
-    /// Inicializa o serviço de monitoramento com suas dependências.
-    /// </summary>
     public MonitoramentoService(AlertaService alertaService, HistoricoEventos historicoEventos)
     {
         _alertaService = alertaService;
@@ -34,7 +31,6 @@ public sealed class MonitoramentoService : IMonitoramento
         _historicoEventos.RegistrarEvento($"Cadastro realizado: {objetoEspacial.Nome} ({objetoEspacial.GetType().Name}).");
     }
 
-    /// <inheritdoc />
     public void MonitorarObjetos()
     {
         if (_objetosEspaciais.Count == 0)
@@ -49,7 +45,6 @@ public sealed class MonitoramentoService : IMonitoramento
         }
     }
 
-    /// <inheritdoc />
     public void VerificarRiscoColisao()
     {
         if (_objetosEspaciais.Count < 2)
@@ -82,9 +77,6 @@ public sealed class MonitoramentoService : IMonitoramento
         }
     }
 
-    /// <summary>
-    /// Retorna os objetos atualmente cadastrados.
-    /// </summary>
     public IReadOnlyCollection<ObjetoEspacial> ObterObjetos()
     {
         return _objetosEspaciais.AsReadOnly();

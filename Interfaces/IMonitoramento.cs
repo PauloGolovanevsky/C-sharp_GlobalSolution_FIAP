@@ -5,13 +5,7 @@ namespace SpaceMonitor.Interfaces;
 /// </summary>
 public interface IMonitoramento
 {
-    /// <summary>
-    /// Lista os objetos monitorados.
-    /// </summary>
     void MonitorarObjetos();
 
-    /// <summary>
-    /// Verifica riscos de colisão entre objetos monitorados.
-    /// </summary>
     void VerificarRiscoColisao();
 }

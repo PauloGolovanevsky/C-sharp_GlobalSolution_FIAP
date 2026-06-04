@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\CLIENTE\\.nuget\\packages\\": {}
+    "C:\\Users\\CodexSandboxOffline\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,7 +16,7 @@
       "projectUniqueName": "C:\\Users\\CLIENTE\\Desktop\\FIAP\\SpaceMonitor\\SpaceMonitor.csproj",
       "projectName": "SpaceMonitor",
       "projectPath": "C:\\Users\\CLIENTE\\Desktop\\FIAP\\SpaceMonitor\\SpaceMonitor.csproj",
-      "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\CodexSandboxOffline\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\CLIENTE\\Desktop\\FIAP\\SpaceMonitor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [

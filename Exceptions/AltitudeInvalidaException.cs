@@ -5,9 +5,6 @@ namespace SpaceMonitor.Exceptions;
 /// </summary>
 public sealed class AltitudeInvalidaException : Exception
 {
-    /// <summary>
-    /// Inicializa uma nova instância da exceção.
-    /// </summary>
     public AltitudeInvalidaException(string message)
         : base(message)
     {

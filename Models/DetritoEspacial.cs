@@ -7,9 +7,6 @@ namespace SpaceMonitor.Models;
 /// </summary>
 public sealed class DetritoEspacial : ObjetoEspacial
 {
-    /// <summary>
-    /// Inicializa um novo detrito espacial monitorado.
-    /// </summary>
     public DetritoEspacial(
         string nome,
         double altitude,
@@ -21,12 +18,8 @@ public sealed class DetritoEspacial : ObjetoEspacial
         OrigemProvavel = origemProvavel;
     }
 
-    /// <summary>
-    /// Origem provável do detrito espacial.
-    /// </summary>
     public string OrigemProvavel { get; }
 
-    /// <inheritdoc />
     public override void ExibirInformacoes()
     {
         Console.WriteLine($"[Detrito Espacial] {Nome} | Id: {Id} | Altitude: {Altitude:F2} km | Velocidade: {Velocidade:F2} km/h | Coordenada: {Coordenada} | Origem: {OrigemProvavel} | Registro: {DataRegistro:dd/MM/yyyy HH:mm:ss}");

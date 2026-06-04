@@ -7,17 +7,11 @@ public sealed class HistoricoEventos
 {
     private readonly List<string> _eventos = [];
 
-    /// <summary>
-    /// Registra um evento com data e hora atuais.
-    /// </summary>
     public void RegistrarEvento(string descricao)
     {
         _eventos.Add($"{DateTime.Now:dd/MM/yyyy HH:mm:ss} - {descricao}");
     }
 
-    /// <summary>
-    /// Exibe todos os eventos registrados.
-    /// </summary>
     public void ExibirHistorico()
     {
         if (_eventos.Count == 0)
@@ -33,9 +27,6 @@ public sealed class HistoricoEventos
         }
     }
 
-    /// <summary>
-    /// Retorna uma cópia somente leitura dos eventos registrados.
-    /// </summary>
     public IReadOnlyCollection<string> ObterEventos()
     {
         return _eventos.AsReadOnly();

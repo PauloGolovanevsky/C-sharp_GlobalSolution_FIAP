@@ -10,9 +10,6 @@ public sealed class AlertaService
 {
     private readonly HistoricoEventos _historicoEventos;
 
-    /// <summary>
-    /// Inicializa o serviço de alertas.
-    /// </summary>
     public AlertaService(HistoricoEventos historicoEventos)
     {
         _historicoEventos = historicoEventos;

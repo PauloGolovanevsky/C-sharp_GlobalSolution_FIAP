@@ -12,9 +12,6 @@ public sealed class RelatorioService
     private readonly MonitoramentoService _monitoramentoService;
     private readonly HistoricoEventos _historicoEventos;
 
-    /// <summary>
-    /// Inicializa o serviço de relatório.
-    /// </summary>
     public RelatorioService(MonitoramentoService monitoramentoService, HistoricoEventos historicoEventos)
     {
         _monitoramentoService = monitoramentoService;

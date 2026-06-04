@@ -5,9 +5,6 @@ namespace SpaceMonitor.Reports;
 /// </summary>
 public partial class Relatorio
 {
-    /// <summary>
-    /// Inicializa um relatório.
-    /// </summary>
     public Relatorio(string titulo, DateTime dataGeracao, int totalObjetos)
     {
         Titulo = titulo;
@@ -15,18 +12,9 @@ public partial class Relatorio
         TotalObjetos = totalObjetos;
     }
 
-    /// <summary>
-    /// Título do relatório.
-    /// </summary>
     public string Titulo { get; }
 
-    /// <summary>
-    /// Data e hora de geração do relatório.
-    /// </summary>
     public DateTime DataGeracao { get; }
 
-    /// <summary>
-    /// Total de objetos considerados no relatório.
-    /// </summary>
     public int TotalObjetos { get; }
 }
