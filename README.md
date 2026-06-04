@@ -1,4 +1,15 @@
+
 # SpaceMonitor
+
+
+
+## Integrantes - 3ESPV
+
+- Heloísa Fleury Jardim / RM556378
+- Juan Fuentes Rufino / RM557673
+- Paulo H. Monteiro Golovanevsky / RM555300
+- Pedro H. Silva Batista / RM558137
+- Rickelmyn de Souza Ruescas / RM556055
 
 ## Motivação
 
