@@ -12,7 +12,7 @@ A aplicação permite o cadastro e gerenciamento de diferentes tipos de objetos 
 
 Quando a diferença de altitude entre dois objetos é inferior a 50 km, o sistema considera a existência de um potencial risco de colisão e gera automaticamente um alerta preventivo. Todas as ocorrências são registradas em um histórico de eventos, permitindo o acompanhamento das operações realizadas e das situações identificadas durante o monitoramento.
 
-Além disso, o sistema disponibiliza funcionalidades de consulta, geração de relatórios e visualização do histórico, proporcionando uma visão consolidada dos objetos monitorados e dos alertas emitidos pela central.
+Além disso, o sistema disponibiliza funcionalidades de consulta, geração de relatórios e visualização do histórico, proporcionando uma visão consolidada dos objetos monitorados e dos alertas emitidos.
 
 
 ## Conceitos de POO aplicados
@@ -29,7 +29,6 @@ Além disso, o sistema disponibiliza funcionalidades de consulta, geração de r
 - `struct` `CoordenadaOrbital`.
 - `partial class` `Relatorio`.
 - Uso de `DateTime` para registros e histórico.
-- Métodos pequenos e modularizados.
 
 ## Estrutura de pastas
 
@@ -58,7 +57,6 @@ SpaceMonitor
 │   └── HistoricoEventos.cs
 ├── Program.cs
 ├── SpaceMonitor.csproj
-└── README.md
 ```
 
 ## Como executar o projeto
@@ -97,3 +95,23 @@ dotnet run
 </p>
 
 ## Evidencias da Aplicação funcionando
+- Menu do sistema
+<p align="center">
+  <img width="450" alt="Diagrama de fluxo do sistema" src="https://github.com/user-attachments/assets/4921c58f-a6aa-4c79-afcb-67a7e9d4b308" />
+</p>
+
+- Cadastro de dois detritos espaciais e simulação de risco de colisão
+<p align="center">
+  <img width="450" alt="Diagrama de fluxo do sistema" src="https://github.com/user-attachments/assets/8ab0a11e-bf75-4cc2-a8a5-5d5f23b655ff" />
+</p>
+
+- Relatorio completo de todos os itens sendo monitorados no momento
+<p align="center">
+  <img width="450" alt="Diagrama de fluxo do sistema" src="https://github.com/user-attachments/assets/23115a3c-2309-4f18-916b-b0ed6cf68426" />
+</p>
+
+
+- Listagem de todos os objetos espaciais cadastrados / Exibir Histórico de Eventos do sistema
+<p align="center">
+  <img width="450" alt="Diagrama de fluxo do sistema" src="https://github.com/user-attachments/assets/0679ef8a-28f3-4385-9c48-4911999e1f54" />
+</p>
